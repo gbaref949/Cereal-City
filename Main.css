@@ -10,6 +10,9 @@ body {
 .topnav {
     overflow: hidden;
     background-color: #e9e9e9;
+    height: 70px;
+    padding-top: 10px;
+    padding-left: 20px;
 }
 
 .topnav a {
@@ -20,6 +23,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    border-radius: 5px;
 }
 
 .topnav a:hover {
@@ -33,7 +37,9 @@ body {
 }
 
 .topnav .search-container {
-    float: center;
+    float: left;
+    text-align: center;
+    border-radius: 5px;
 }
 
 .topnav input[type=text] {
