@@ -1,11 +1,9 @@
 * {
     box-sizing: border-box;
 }
-
-html {
+html{
 
 }
-
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -13,7 +11,7 @@ body {
 
 .topnav {
     overflow: hidden;
-    background-color: darkgray;
+    background-color: #e9e9e9;
     height: 70px;
     padding-top: 10px;
     padding-left: 20px;
@@ -36,16 +34,14 @@ body {
 }
 
 .topnav a.active {
-    background-color: #3C658F;
+    background-color: #2196F3;
     color: white;
-    border: 2px solid black;
 }
 
 .topnav .search-container {
     float: left;
     text-align: center;
     border-radius: 5px;
-    padding-left: 20px;
 }
 
 .topnav input[type=text] {
@@ -62,19 +58,12 @@ body {
 }
 .art{
     text-align: center;
-    border: 2px solid #3C658F;
+    border: 2px solid black;
     background-color: rgb(245, 247, 255);
 }
-.bannerWords{
-    color: black;
-    text-shadow: #DADCF4 4px 4px;
-    font-size: 40px;
-    text-align: center;
-    font-family: "Brush Script MT";
-}
-.bannerWords p {
-    text-align: center;
-    font-family: Tahoma, sans-serif;
-    font-size: 20px;
-    text-shadow: none;
+iframe{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
 }
