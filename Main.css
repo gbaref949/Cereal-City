@@ -75,10 +75,12 @@ body {
     text-align: center;
     font-family: "Brush Script MT";
 }
-
-.bannerWords p {
+.learnButton{
     text-align: center;
-    font-family: Tahoma, sans-serif;
-    font-size: 20px;
-    text-shadow: none;
+    background-color: #DADCF4;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
+
 }
