@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,11 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cereal City | Gallery</title>
-    <link rel="stylesheet" href="./Main.css">
+    <link rel="stylesheet" href="./gallery.css">
 </head>
 
 <body>
-
+        <header>
+        <div class="topnav">
+            <a class="active" href="#home"><strong>Cereal City</strong></a>
+            <a href="./Gallery.html"><strong>Gallery</strong></a>
+            <a href="./menu.html"><strong>Menu</strong></a>
+            <a href="./Orderform.html"><strong>Order Form</strong></a>
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                </form>
+            </div>
+        </div>
+    </header>
+    <article>
+        <div class="slider">
+            <span id="slide-1"></span>
+            <span id="slide-2"></span>
+            <span id="slide-3"></span>
+            <div class="image-container">
+                <img src="./images/field-image-kelloggs-cereal-hero-builder-2000.png" class="slide" width="500" height="300" />
+                <img src="./images/origin.png" class="slide" width="500" height="300" />
+                <img src="./images/6506745ee2f0c46d8003119ccb1edea7.png" class="slide" width="500" height="300" />
+            </div>
+            <div class="buttons">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+            </div>
+        </div>
+    </article>
 </body>
 
 </html>

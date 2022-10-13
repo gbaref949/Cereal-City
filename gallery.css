@@ -1,0 +1,115 @@
+ .slider {
+     width: 500px;
+     height: 300px;
+     background-color: yellow;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 150px;
+     text-align: center;
+     overflow: hidden;
+ }
+
+ .image-container {
+     width: 1500px;
+     background-color: pink;
+     height: 300px;
+     clear: both;
+     position:relative;
+     -webkit-transition: left 2s;
+     -moz-transition: left 2s;
+     -o-transition: left 2s;
+     transition: left 2s;
+     size: 1450px 1100px;
+ }
+
+ .slide {
+     float: left;
+     margin: 0px;
+     padding: 0px;
+     position: relative;
+ }
+
+ #slide-1:target~.image-container {
+     left: 0px;
+ }
+
+ #slide-2:target~.image-container {
+     left: -500px;
+ }
+
+ #slide-3:target~.image-container {
+     left: -1000px;
+ }
+
+ .buttons {
+     position: relative;
+     top: -20px;
+ }
+
+ .buttons a {
+     display: inline-block;
+     height: 15px;
+     width: 15px;
+     border-radius: 50px;
+     background-color: rgb(37, 27, 27);
+ }
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+    background-color: darkgray;
+    height: 70px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #2196F3;
+    background-color: #3C658F;
+    color: white;
+    border: 2px solid black;
+}
+
+.topnav .search-container {
+    float: left;
+    text-align: center;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width: 500px;
+}
+
+
+.topnav .search-container button:hover {
+    background: #ccc;
+}
