@@ -11,11 +11,14 @@ body {
 
 .topnav {
     overflow: hidden;
+    width: 100%;
+    position: fixed;
     background-color: #e9e9e9;
     background-color: darkgray;
     height: 70px;
     padding-top: 10px;
     padding-left: 20px;
+    border: 1px solid grey;
 }
 
 .topnav a {
@@ -62,6 +65,8 @@ body {
 }
 
 .art {
+    padding-top: 110px;
+    padding-bottom: 40px;
     text-align: center;
     border: 2px solid black;
     border: 2px solid #3C658F;
@@ -69,11 +74,13 @@ body {
 }
 
 .bannerWords {
+    margin-top: 40px;
     color: black;
     text-shadow: #DADCF4 4px 4px;
     font-size: 40px;
     text-align: center;
     font-family: "Brush Script MT";
+    margin-bottom: 50px;
 }
 .learnButtonOut{
     text-align: center;
@@ -83,6 +90,7 @@ body {
     width: 100%;
     height: 20px;
     justify-content: center;
+    
 
 }
 .learnButton{
@@ -93,12 +101,31 @@ body {
     height: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 17px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 
 }
 .learnButtonOut button:hover {
     border: 2px solid #3C658F;
 
 
+}
+.reviewImage{
+    display: block;
+    float: right;
+    padding-right: 50px;
+    justify-content: right;
+    text-align: right;
+    background-color: #3C658F;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 100px;
+}
+.review{
+    display: block;
+    float: left;
+    width: 100%;
 }
 .footer1{
     grid-area: one;
@@ -132,7 +159,7 @@ body {
 }
 .container {
     display: grid;
-    justify-content: space-between;
+    justify-content: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     color: #DADCF4;
