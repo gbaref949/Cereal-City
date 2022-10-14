@@ -75,12 +75,77 @@ body {
     text-align: center;
     font-family: "Brush Script MT";
 }
-.learnButton{
+.learnButtonOut{
     text-align: center;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 20px;
+    justify-content: center;
+
+}
+.learnButton{
     background-color: #DADCF4;
     border: none;
     border-radius: 5px;
     width: 200px;
-    height: 20px;
+    height: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
 
+}
+.learnButtonOut button:hover {
+    border: 2px solid #3C658F;
+
+
+}
+.footer1{
+    grid-area: one;
+    margin-top: 30px;
+}
+.footer2 {
+    grid-area: two;
+    margin-top: 30px;
+}
+.footer3 {
+    grid-area: three;
+    margin-top: 30px;
+}
+.footer4 {
+    margin-top: 30px;
+    grid-area: four;
+}
+.footer5 {
+    margin-top: 30px;
+    grid-area: five;
+}
+.footer6 {
+    margin-top: 30px;
+    grid-area: six;
+}
+.footer7 {
+    grid-area: seven;
+    margin-top: 70px;
+    text-align: center;
+    font-size: 10px;
+}
+.container {
+    display: grid;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #DADCF4;
+    grid-template-columns: (50px 50px 50px);
+    grid-template-rows: (100px 100px 100px);
+    grid-template-areas: 
+    "one two three"
+    "four five six"
+    "seven seven seven";
+
+}
+footer{
+    background-color: #3C658F;
+    height: 205px;
+    margin-top: 1000px;
 }
