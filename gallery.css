@@ -2,94 +2,6 @@ html,body {
     margin: 0;
     padding: 0;
 }
-.resturant-name {
-    text-align: center;
-    margin: 0;
-    font-size: 4em;
-    font-family: "Brush Script MT";
-    text-shadow: 2px #2196F3;
-    font-weight: normal;
-    color: rgb(0, 0, 0);
-}
-
-.resturant-name-large {
-    font-size: 8em;
-}
-
-.content-section {
-    margin: 1em;
-}
-
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 1.5em;
-    
-}
-
-.slider {
-     width: 500px;
-     height: 300px;
-     background-color: yellow;
-     margin-left: auto;
-     margin-right: auto;
-     margin-top: 5rem;
-     text-align: center;
-     overflow: hidden;
- }
-
- .image-container {
-     width: 1500px;
-     background-color: pink;
-     height: 300px;
-     clear: both;
-     position:relative;
-     -webkit-transition: left 2s;
-     -moz-transition: left 2s;
-     -o-transition: left 2s;
-     transition: left 2s;
-     size: 1450px 1100px;
- }
-
- .slide {
-     float: left;
-     margin: 0px;
-     padding: 0px;
-     position: relative;
- }
-
- #slide-1:target~.image-container {
-     left: 0px;
- }
-
- #slide-2:target~.image-container {
-     left: -500px;
- }
-
- #slide-3:target~.image-container {
-     left: -1000px;
- }
-
- .buttons {
-     position: relative;
-     top: -20px;
- }
-
- .buttons a {
-     display: inline-block;
-     height: 15px;
-     width: 15px;
-     border-radius: 50px;
-     background-color: rgb(37, 27, 27);
- }
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 .topnav {
     overflow: hidden;
@@ -143,3 +55,151 @@ body {
     background: #ccc;
 }
 
+.resturant-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Brush Script MT";
+    text-shadow: 2px #2196F3;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+}
+
+.resturant-name-large {
+    font-size: 8em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    
+}
+
+.slider {
+     width: 500px;
+     height: 300px;
+     background-color: yellow;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 4rem;
+     text-align: center;
+     overflow: hidden;
+ }
+
+ .image-container {
+     width: 1500px;
+     background-color: pink;
+     height: 300px;
+     clear: both;
+     position:relative;
+     -webkit-transition: left 2s;
+     -moz-transition: left 2s;
+     -o-transition: left 2s;
+     transition: left 2s;
+     size: 1450px 1100px;
+ }
+
+ .slide {
+     float: left;
+     margin: 0px;
+     padding: 0px;
+     position: relative;
+ }
+
+ #slide-1:target~.image-container {
+     left: 0px;
+ }
+
+ #slide-2:target~.image-container {
+     left: -500px;
+ }
+
+ #slide-3:target~.image-container {
+     left: -1000px;
+ }
+  #slide-4:target~.image-container {
+      left: -1500px;
+  }
+
+ .buttons {
+     position: relative;
+     top: -20px;
+ }
+
+ .buttons a {
+     display: inline-block;
+     height: 15px;
+     width: 15px;
+     border-radius: 50px;
+     background-color: rgb(37, 27, 27);
+ }
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer1 {
+    grid-area: one;
+    margin-top: 30px;
+}
+
+.footer2 {
+    grid-area: two;
+    margin-top: 30px;
+}
+
+.footer3 {
+    grid-area: three;
+    margin-top: 30px;
+}
+
+.footer4 {
+    margin-top: 30px;
+    grid-area: four;
+}
+
+.footer5 {
+    margin-top: 30px;
+    grid-area: five;
+}
+
+.footer6 {
+    margin-top: 30px;
+    grid-area: six;
+}
+
+.footer7 {
+    grid-area: seven;
+    margin-top: 70px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #DADCF4;
+    grid-template-columns: (50px 50px 50px);
+    grid-template-rows: (100px 100px 100px);
+    grid-template-areas:
+        "one two three"
+        "four five six"
+        "seven seven seven";
+
+}
+
+footer {
+        background-color: #3C658F;
+        height: 200px;
+        margin-top: 4rem;
+    }
