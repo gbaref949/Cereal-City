@@ -130,6 +130,7 @@ body {
     float: left;
     width: 100%;
 }
+/*footer 1-6 have nothing in them so basically useless until footer 7*/
 .footer1{
     grid-area: one;
     margin-top: 30px;

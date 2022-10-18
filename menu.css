@@ -68,6 +68,8 @@ body {
 
 .resturant-name-large {
     font-size: 8em;
+    color: black;
+    text-shadow: #3C658F 4px 4px;
 }
 
 .content-section {
@@ -141,4 +143,28 @@ footer {
     background-color: #3C658F;
     height: 200px;
     margin-top: 4rem;
+}
+section strong {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+}
+section button{
+    margin-bottom: 50px;
+}
+section img {
+    border: 3px solid #3C658F;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+
+}
+
+button{
+    width: 200px;
+    border: none;
+    border-radius: 3px;
+    background-color: #DADCF4;
+    height: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
