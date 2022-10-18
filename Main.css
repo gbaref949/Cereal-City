@@ -216,3 +216,27 @@ footer{
     text-align: center;
 
 }
+/* makes it so when the screen gets smaller the search bar dosent disappear  */
+@media only screen and (max-width: 960px) {
+    .topnav {
+            overflow: hidden;
+            width: 100%;
+            position: fixed;
+            background-color: #e9e9e9;
+            background-color: darkgray;
+            height: 150px;
+            padding-top: 10px;
+            padding-left: 20px;
+            border: 1px solid grey;
+        }
+                .topnav .search-container {
+                    float: left;
+                    border-radius: 5px;
+                    padding-left: 20px;
+                }
+    body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+}
