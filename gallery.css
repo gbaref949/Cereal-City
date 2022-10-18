@@ -7,7 +7,7 @@ html,body {
     margin: 0;
     font-size: 4em;
     font-family: "Brush Script MT";
-    text-shadow: #2196F3;
+    text-shadow: 2px #2196F3;
     font-weight: normal;
     color: rgb(0, 0, 0);
 }
@@ -24,6 +24,7 @@ html,body {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 1.5em;
+    
 }
 
 .slider {
