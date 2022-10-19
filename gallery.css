@@ -1,6 +1,7 @@
 html,body {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .topnav {
@@ -50,11 +51,11 @@ html,body {
     width: 500px;
 }
 
-
 .topnav .search-container button:hover {
     background: #ccc;
 }
 
+/* The .topnav's are all the css needed for the header from decoration in the actual header  to the shape of the buttons */
 .resturant-name {
     text-align: center;
     margin: 0;
@@ -79,20 +80,24 @@ html,body {
     padding: 0 1.5em;
     
 }
+/* Makes sure the logo shows up at the top and includes the font size, color, and color shading  */
 
 .slider {
      width: 500px;
      height: 300px;
-     background-color: yellow;
+     background-color: #3C658F;
      margin-left: auto;
      margin-right: auto;
      margin-top: 4rem;
      text-align: center;
      overflow: hidden;
- }
+    border: 2px solid #3C658F;
+    border-radius: 5px;
+}
+  
 
  .image-container {
-     width: 1500px;
+     width: 2000px;
      background-color: pink;
      height: 300px;
      clear: both;
@@ -138,14 +143,11 @@ html,body {
      border-radius: 50px;
      background-color: rgb(37, 27, 27);
  }
+ /* from .slider to .button contains everything needed to make sure the gallery slideshow shows up and work so that users can click through and view the photos */
 * {
     box-sizing: border-box;
 }
-
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
+/* The * means applies to everything */
 .footer1 {
     grid-area: one;
     margin-top: 30px;
@@ -203,3 +205,4 @@ footer {
         height: 200px;
         margin-top: 4rem;
     }
+    /* From .footer to footer contains all the css to make the footer appear the way it does on the website. We decide to use grid-temeplate-areas to make sure the text shows up centered  */

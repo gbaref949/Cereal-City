@@ -5,26 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./pizzalogo.png" type="image/x-icon">
-    <title>Cereal City | Order form</title>
+
+    <meta name="description" content="Cereal City ">
+    <meta name="author" content="Georgiana Barefield and Asher Page">
+
+    <meta property="og:image"
+        content="https://www.cspinet.org/sites/default/files/styles/700x530/public/2021-11/december21_bn_hero_700x530.webp?h=61bc1599">
+    <meta property="og:description" content="The Cereal Spot that has all you need!">
+    <meta property="og:title" content="Title">
     <link rel="stylesheet" href="./Main.css">
-
+    <link rel="icon" href="images/favicon-16x16.png" type="image/x-icon">
+<!-- Everything in the head is to make sure the website is readable to the browser -->
 </head>
-
 <body>
         <header>
             <div class="topnav">
-                <!-- <a class="active" href="./index.html"><strong>Cereal City</strong></a> -->
                 <a class="active" href="./index.html"><strong>Cereal City</strong></a>
                 <a href="./gallary.html"><strong>Gallery</strong></a>
                 <a href="./menu.html"><strong>Menu</strong></a>
                 <a href="./Orderform.html"><strong>Order Form</strong></a>
+                <!-- The a href tags are links to the different webpages and we put them in strong tags so they can be bold and catch the
+                                        audience attention quicker -->
                 <div class="search-container">
                     <form action="/action_page.php">
                         <input type="text" placeholder="Search.." name="search">
                     </form>
+                    <!-- The div above is the code to make sure we have a search bar -->
                 </div>
-        
             </div>
         </header>
     <br>
@@ -36,7 +43,7 @@
             <div style="font-family: 'Brush Script MT'; text-align: center;">
                 <h1 style="color: rgb(245, 247, 255); text-shadow: #3C658F 4px 4px; font-size: 80px;">Cereal City</h1>
             </div>
-
+            <!-- Everything in div class cent is for the decorated logo "Cereal City"-->
             <form>
                 <fieldset style="width: 500px;">
                     <legend>Milk</legend>
@@ -46,6 +53,7 @@
                         <li><input type="radio">Almond Milk</input></li>
                     </ul>
                 </fieldset>
+                <!-- The first form section displays radio buttons for the milk type -->
             </form>
             <form>
                 <fieldset style="width: 500px;">
@@ -72,12 +80,14 @@
                     </ul>
                 </fieldset>
             </form>
+            <!-- The second form section displays radio button with the cereal option we  have and the way you get your order delivery or pickup. Also radio buttons are circular buttons that appear on your webpage -->
             <form>
                 <fieldset style="width: 500px;">
                     <legend>Special Instructions</legend>
                     <input type="text" style="height: 75px; width: 485px;">
                 </fieldset>
             </form>
+            <!-- In the third form is the textarea or textbox with special instructions the constumer can leave on their order -->
             <form>
                 <fieldset style="width: 500px;">
                     <legend>Payment Info</legend>
@@ -93,6 +103,7 @@
                     <a href="https://littlecaesars.com/en-us/"><img src="./images/lilcerealbutton.png" width="200px" height="50px"></a>
                 </fieldset>
             </form>
+            <!-- The fourth form is were the costumer pays that's why we used input tags and specified the type and a button for them to submit their order-->
         </fieldset>
     </form>
     </div>
